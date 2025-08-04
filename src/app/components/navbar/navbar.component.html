@@ -1,1 +1,17 @@
-<p>navbar works!</p>
+<nav class="bg-green-600 text-white px-6 py-4 shadow-md">
+  <div class="max-w-7xl mx-auto flex items-center justify-between">
+    <!-- Logo / Nombre -->
+    <a routerLink="/" class="text-2xl font-bold hover:opacity-90">Mundo Perruno</a>
+
+    <!-- Enlaces de navegación -->
+    <ul class="flex space-x-6">
+      <li><a routerLink="/"          routerLinkActive="underline" class="hover:opacity-90">Inicio</a></li>
+      <li><a routerLink="/productos" routerLinkActive="underline" class="hover:opacity-90">Productos</a></li>
+      <li><a routerLink="/nosotros"  routerLinkActive="underline" class="hover:opacity-90">Nosotros</a></li>
+      <li><a routerLink="/contacto"  routerLinkActive="underline" class="hover:opacity-90">Contacto</a></li>
+      <li><a routerLink="/suscribirse" routerLinkActive="underline" class="hover:opacity-90">Suscribirse</a></li>
+    </ul>
+  </div>
+</nav>
+
+
